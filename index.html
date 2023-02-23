@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <title>Just another TODO List app</title>
+    <meta
+      name="description"
+      content="This todo list app is a simple, easy to use and highly feature packed app that lets you create and manage your tasks."
+    />
+    <meta name="author" content="mczarnecky" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="favi/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favi/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favi/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favi/site.webmanifest" />
+    <link rel="mask-icon" href="favi/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#202020" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container__main">
+        <div class="board">
+          <div class="board__header">
+            <div class="board__header__title">
+              <h2 class="headling__h2">
+                <span class="headling__h2--small">Just another</span>
+                TODO List
+                <span class="headling__h2--small">app.</span>
+              </h2>
+            </div>
+            <div class="board__header__icon">👋</div>
+          </div>
+          <div class="board__content todolist">
+            <div class="alert alert__warning error-info d-none"></div>
+
+            <div class="task-input">
+              <div class="task-input__title">Enter your task to do:</div>
+              <div class="task-input__content">
+                <input class="todo-input" type="text" />
+                <button class="btn btn-dark btn-add">Add</button>
+              </div>
+            </div>
+            <ul class="tasks ul"></ul>
+            <div class="welcome-text"></div>
+          </div>
+          <div class="board__footer">
+            <div class="footer">
+              <div class="footer__info">
+                "Just another TODO List app" made only for fun and practice!
+                <span class="rocket">🚀</span>
+              </div>
+              <div class="footer__author">
+                <a href="https://czarneckimichal.pl" target="_blank"
+                  >czarneckimichal.pl</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup">
+        <div class="popup__container">
+          <div class="popup__container__head window-title">
+            Edytuj swoje zadanie
+          </div>
+
+          <div class="popup__container__main">
+            <div class="alert alert__warning popup-info d-none"></div>
+            <input class="popup-input" type="text" />
+          </div>
+          <div class="popup__container__footer">
+            <button class="btn btn-light cancel">Anuluj</button>
+            <button class="btn btn-dark accept">Zapisz</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

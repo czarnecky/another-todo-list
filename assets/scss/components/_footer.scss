@@ -1,0 +1,17 @@
+.footer {
+  font-size: 14px;
+  text-align: center;
+  &__info {
+    font-weight: 500;
+    color: $grey-medium-02;
+  }
+  &__author {
+    color: $grey-medium;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    font-size: 0.75rem;
+  }
+}

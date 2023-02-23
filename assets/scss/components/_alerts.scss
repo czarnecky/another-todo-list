@@ -1,0 +1,21 @@
+.alert {
+  display: flex;
+  padding: 1rem 0.6rem;
+  margin: 0.6rem 0;
+  border-radius: 6px;
+  &__danger {
+    border: 2px solid #e19588;
+    background-color: #fde7e3;
+    color: #a14432;
+  }
+  &__success {
+    border: 2px solid #6dbf7a;
+    background-color: #cfeed7;
+    color: #244a2a;
+  }
+  &__warning {
+    border: 2px solid #f3c17e;
+    background-color: #fff9e6;
+    color: #ba7d29;
+  }
+}

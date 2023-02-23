@@ -1,0 +1,15 @@
+{
+  "name": "another-todo-list",
+  "version": "1.0.0",
+  "description": "Just another TODO list in pure JS and HTML/CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss -o assets/css"
+  },
+  "author": "Michal Czarnecki",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

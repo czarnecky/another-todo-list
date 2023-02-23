@@ -1,0 +1,32 @@
+.tools {
+  display: flex;
+  gap: 0.6rem;
+}
+.completed {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 3px;
+  color: $grey-medium;
+}
+
+.no-tasks {
+  text-align: center;
+  text-align: center;
+  background-color: $sec-light;
+  padding: 2rem 2rem;
+  border-radius: 0.75rem;
+  font-size: 1.3125rem;
+  color: $grey-medium-02;
+  font-weight: 500;
+}
+
+.d-none {
+  display: none !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .tools {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}

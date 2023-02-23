@@ -1,0 +1,14 @@
+#All unnecessary files
+
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# DS_Store
+.DS_Store
+
+# Packets
+/node_modules

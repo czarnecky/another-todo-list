@@ -1,0 +1,12 @@
+.task-input {
+  margin: 1rem 0 2rem 0;
+  &__title {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  &__content {
+    display: flex;
+    gap: 1rem;
+  }
+}
